@@ -16,9 +16,9 @@ const Consultants = () => {
   const [formData, setFormData] = useState({
     patientName: "",
     age: "",
-    weight: "",
-    height: "",
-    tel: ""
+    tel: "",
+    area: "",
+    gender: ""
   });
 
   const consultants = useMemo(() => [
@@ -40,15 +40,24 @@ const Consultants = () => {
   // Handle form submit (add your logic here)
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Send data to WhatsApp or backend
+    // Prefill a WhatsApp message with booking details and open WhatsApp
+    const whatsappNumber = "+94707799444"; // clinic number
+    const cleaned = whatsappNumber.replace(/\D/g, "");
+    const lines = [
+      `Booking request for ${selectedDoctor?.name || "-"}`,
+      `Patient Name: ${formData.patientName || "-"}`,
+      `Age: ${formData.age || "-"}`,
+      `Tel No: ${formData.tel || "-"}`,
+      `Area: ${formData.area || "-"}`,
+      `Gender: ${formData.gender || "-"}`,
+    ];
+    const text = lines.join("\n");
+    const url = `https://wa.me/${cleaned}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank");
+
+    // reset & close
     setShowForm(false);
-    setFormData({
-      patientName: "",
-      age: "",
-      weight: "",
-      height: "",
-      tel: ""
-    });
+    setFormData({ patientName: "", age: "", tel: "", area: "", gender: "" });
   };
 
   return (
@@ -188,22 +197,26 @@ const Consultants = () => {
                         />
                       </div>
                       <div className="mb-4">
-                        <label className="block mb-1 font-medium">{i18n.language === "si" ? "බර" : "Weight"}</label>
+                        <label className="block mb-1 font-medium">{i18n.language === "si" ? "ප්‍රදේශය" : "Area"}</label>
                         <input
-                          type="number"
+                          type="text"
                           className="w-full border rounded px-3 py-2"
-                          value={formData.weight}
-                          onChange={e => setFormData({ ...formData, weight: e.target.value })}
+                          value={formData.area}
+                          onChange={e => setFormData({ ...formData, area: e.target.value })}
                         />
                       </div>
                       <div className="mb-4">
-                        <label className="block mb-1 font-medium">{i18n.language === "si" ? "උස" : "Height"}</label>
-                        <input
-                          type="number"
+                        <label className="block mb-1 font-medium">{i18n.language === "si" ? "ස්ත්‍රී/පුරුෂ" : "Gender"}</label>
+                        <select
                           className="w-full border rounded px-3 py-2"
-                          value={formData.height}
-                          onChange={e => setFormData({ ...formData, height: e.target.value })}
-                        />
+                          value={formData.gender}
+                          onChange={e => setFormData({ ...formData, gender: e.target.value })}
+                        >
+                          <option value="">Prefer not to say</option>
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                          <option value="Other">Other</option>
+                        </select>
                       </div>
                       <div className="mb-4">
                         <label className="block mb-1 font-medium">{i18n.language === "si" ? "දුරකථන අංකය" : "Tel No"}</label>
