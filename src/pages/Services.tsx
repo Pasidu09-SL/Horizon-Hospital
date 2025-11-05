@@ -9,6 +9,10 @@ import emergency from "../../public/img/emergency.webp"
 import lab from   "../../public/img/LabM.webp"
 import pharmacy from "../../public/img/pharammcy.webp";
 import cosmatic from "../../public/img/cosmatic.webp";
+import consultant from "../../public/img/special.webp";
+import sergury from "../../public/img/surgery.webp";
+import labservice from "../../public/img/cliniclanb.webp"
+import tmt from "../../public/img/Hos.webp";
 
 const Services = () => {
   const services = [
@@ -22,13 +26,13 @@ const Services = () => {
       icon: Heart,
       title: "Expert Specialist Consultation",
       description: "Access high-quality, focused care through our network of leading medical consultants. We offer specialized consultations in areas such as Cardiology, Gastroenterology, and more to provide expert diagnosis, advanced management plans, and coordinated ongoing care for complex conditions. Book your specialist appointment today.",
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&h=400&fit=crop",
+      image: consultant,
     },
     {
       icon: Activity,
       title: "Advanced Surgical Theater Services",
       description: "Our modern operating Theater is equipped with state-of-the-art technology to facilitate a wide range of minor and major surgical procedures. Our skilled surgical team and anesthetists are committed to maintaining the highest standards of safety, precision, and post-operative recovery for all our patients.",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+      image: sergury,
     },
     {
       icon: Microscope,
@@ -52,7 +56,7 @@ const Services = () => {
       icon: Microscope,
       title: "Advanced Laboratory and Pathology Services",
       description: "Our state-of-the-art laboratory performs a wide range of diagnostic and pathology tests, including blood work, biochemical analysis, and microbiology. We prioritize accuracy and rapid turnaround times to support your physician's timely treatment decisions.",
-      image: lab,
+      image: labservice,
     },
     {
       icon: Activity,
@@ -64,7 +68,7 @@ const Services = () => {
       icon: Heart,
       title: "Cardiac Diagnostic: Exercise ECG (TMT)",
       description: "Specialized non-invasive test used to evaluate heart function during physical stress. Our Exercise ECG (Treadmill Test) helps diagnose coronary artery disease, assess fitness levels, and guide treatment plans under the supervision of our experienced cardiologists.",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+      image: tmt,
     },
     {
       icon: Microscope,
