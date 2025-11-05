@@ -57,7 +57,7 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4 text-primary">Follow Us</h3>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://web.facebook.com/horizonhealth.lk/?_rdc=1&_rdr#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-accent hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -76,7 +76,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@HorizonHospitalThissamaharama"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-accent hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -85,7 +85,7 @@ const Footer = () => {
                 <Youtube className="h-5 w-5" />
               </a>
               <a
-                href="https://tiktok.com"
+                href="https://www.tiktok.com/@horizonhospital0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-accent hover:bg-primary hover:text-primary-foreground transition-colors"

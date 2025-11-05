@@ -63,7 +63,7 @@ const Consultants = () => {
         <main>
           <section className="relative h-80 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1666214280577-46f21553aef4?w=1920&h=400&fit=crop"
+              src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&h=400&fit=crop"
               alt="Medical consultants and doctors at Horizon Hospital"
               className="w-full h-full object-cover"
             />

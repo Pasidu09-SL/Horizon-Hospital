@@ -9,6 +9,7 @@ import SEO from "@/components/SEO";
 
 import opdD from "../../public/img/opdD.webp";
 import emergency from "../../public/img/emergency.webp"
+import pharmacy from "../../public/img/pharammcy.webp";
 
 
 
@@ -60,7 +61,7 @@ const Home = () => {
       icon: Pill,
       title: "Hospital Pharmacy",
       description: "A fully stocked, qualified pharmacy ensuring you receive accurate and essential medications with professional guidance.",
-      image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&h=300&fit=crop",
+      image: pharmacy,
     },
   ];
 

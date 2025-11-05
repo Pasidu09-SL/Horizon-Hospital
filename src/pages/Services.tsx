@@ -7,6 +7,8 @@ import SEO from "@/components/SEO";
 import opdD from "../../public/img/opdD.webp";
 import emergency from "../../public/img/emergency.webp"
 import lab from   "../../public/img/LabM.webp"
+import pharmacy from "../../public/img/pharammcy.webp";
+import cosmatic from "../../public/img/cosmatic.webp";
 
 const Services = () => {
   const services = [
@@ -38,7 +40,7 @@ const Services = () => {
       icon: Pill,
       title: "24/7 Hospital Pharmacy",
       description: "Our in-house pharmacy is fully stocked with a comprehensive range of medications and medical supplies. Our qualified pharmacists provide expert guidance on medication usage, potential interactions, and proper storage, ensuring safe and convenient access to all your prescribed medicines.",
-      image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=400&fit=crop",
+      image: pharmacy,
     },
     {
       icon: AlertCircle,
@@ -80,7 +82,7 @@ const Services = () => {
       icon: Heart,
       title: "Beauty and Medical Wellness Clinic",
       description: "Go beyond medical treatment with our specialized clinic. We offer a range of services focusing on aesthetic enhancement, skin health, and overall wellbeing. Consult with our experts to achieve your personal health and wellness goals in a professional setting.",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+      image: cosmatic,
     },
   ];
 
