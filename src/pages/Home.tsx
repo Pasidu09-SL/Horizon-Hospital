@@ -203,7 +203,7 @@ const Home = () => {
           </section>
 
           {/* LANGUAGE SELECTOR */}
-          <div className="flex justify-end p-4 bg-gray-100 shadow-sm items-center column-gap-5">
+          {/* <div className="flex justify-end p-4 bg-gray-100 shadow-sm items-center column-gap-5">
             <p>{lang === "en" ? "Select Language :" : "භාෂාව තෝරන්න : "}</p>
             <select
               value={lang}
@@ -213,7 +213,7 @@ const Home = () => {
               <option value="en">English</option>
               <option value="si">සිංහල</option>
             </select>
-          </div>
+          </div> */}
 
           {/* ABOUT */}
           <section className="py-16 bg-card text-center">

@@ -199,7 +199,7 @@ const Services = () => {
           </section>
 
           {/* LANGUAGE SELECTOR */}
-          <div className="container mx-auto px-4 mt-4 flex justify-end items-center gap-5">
+          {/* <div className="container mx-auto px-4 mt-4 flex justify-end items-center gap-5">
             <p>{lang === "en" ? "Select Language :" : "භාෂාව තෝරන්න : "}</p>
             <select
               value={lang}
@@ -209,7 +209,7 @@ const Services = () => {
               <option value="en">English</option>
               <option value="si">සිංහල</option>
             </select>
-          </div>
+          </div> */}
 
           {/* SERVICES LIST */}
           <article className="py-16">

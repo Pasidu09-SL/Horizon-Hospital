@@ -238,7 +238,7 @@ const Consultants = () => {
       {
         name:
           i18n.language === "si"
-            ? "වෛද්‍ය රංගා කොඩිතුවක්කු මහත්මයා"
+            ? "වෛද්‍ය රංග කොඩිතුවක්කු මහත්මයා"
             : "Dr. Ranga Kodithuwakku",
         specialization:
           i18n.language === "si" ? "විකලාංග ශල්‍ය වෛද්‍ය" : "Orthopedic Surgeon",
@@ -251,7 +251,7 @@ const Consultants = () => {
       {
         name:
           i18n.language === "si"
-            ? "වෛද්‍ය රංගා කොඩිතුවක්කු මහත්මයා"
+            ? "වෛද්‍ය රංග හීන්දෙනිය මහත්මයා"
             : "Dr. Ranga Heendeniya",
         specialization:
           i18n.language === "si" ? "ශල්‍ය වෛද්‍ය" : "Surgeon (VS)",
@@ -260,6 +260,19 @@ const Consultants = () => {
           i18n.language === "si"
             ? "විශේෂඥ ශල්‍ය වෛද්‍ය"
             : "Specialist Consultant Surgeon",
+      },
+      {
+        name:
+          i18n.language === "si"
+            ? "වෛද්‍ය චන්දන දහනායක මහත්මයා"
+            : "Dr. Chandana Dahanayaka",
+        specialization:
+          i18n.language === "si" ? "ස්වාසන රෝග විශේෂඥ වෛද්‍ය" : "Chest physician",
+        image: "/img/male_doctor.webp",
+        description:
+          i18n.language === "si"
+            ? "ස්වාසන රෝග විශේෂඥ වෛද්‍ය"
+            : "Experienced Chest physician",
       },
       // ...add more consultants as needed
     ],
