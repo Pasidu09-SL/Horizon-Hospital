@@ -26,31 +26,6 @@ const Consultants = () => {
       {
         name:
           i18n.language === "si"
-            ? "වෛද්‍ය නිමල් පෙරේරා මහතා"
-            : "Dr. Nimal Perera",
-        specialization:
-          i18n.language === "si" ? "හෘද රෝග විශේෂඥ" : "Cardiologist",
-        image: "/img/male_doctor.webp", //male_doctor-removebg.webp
-        description:
-          i18n.language === "si"
-            ? "හෘද රෝග සහ හෘද සෞඛ්‍යය විශේෂඥ"
-            : "Specialist in cardiovascular diseases and heart health",
-      },
-      {
-        name:
-          i18n.language === "si"
-            ? "වෛද්‍ය සුනිල් සිල්වා මහතා"
-            : "Dr. Sunil Silva",
-        specialization: i18n.language === "si" ? "ශල්‍ය වෛද්‍ය" : "Surgeon",
-        image: "/img/male_doctor.webp", //male_doctor-removebg.webp
-        description:
-          i18n.language === "si"
-            ? "අත්‍යවශ්‍ය ශල්‍ය ප්‍රතිකාර විශේෂඥ"
-            : "Experienced in complex surgical procedures",
-      },
-      {
-        name:
-          i18n.language === "si"
             ? "වෛද්‍ය උපුල් වීරසිංහ මහතා "
             : "Dr. Upul Weerasinghe.",
         specialization:
@@ -63,20 +38,6 @@ const Consultants = () => {
             ? "විකිරණවේදී විශේෂඥ වෛද්‍ය"
             : "Experienced in Consultant Radiologist",
       },
-      {
-        name:
-          i18n.language === "si"
-            ? "වෛද්‍ය රංග ඒ හේන්දෙනිය මහතා"
-            : "Dr. Ranga A Heendeniya",
-        specialization:
-          i18n.language === "si" ? "ශල්‍ය විශේෂඥ" : "Consultant Surgeon",
-        image: "/img/male_doctor.webp",
-        description:
-          i18n.language === "si"
-            ? "අයුරු ශල්‍ය විශේෂඥකමෙන් පළපුරුදු"
-            : "Experienced Consultant Surgeon",
-      },
-
       {
         name:
           i18n.language === "si"
@@ -190,8 +151,8 @@ const Consultants = () => {
       {
         name:
           i18n.language === "si"
-            ? "වෛද්‍ය දිනේෂා මගගේ මහත්මිය"
-            : "Dr. (Mrs) Dinesha Magage",
+            ? "වෛද්‍ය සුලක්ෂි රොටම්බගේ මහත්මිය"
+            : "Dr. (Mrs) Sulakshi Rotumbage",
         specialization:
           i18n.language === "si" ? "ළමා රෝග විශේෂඥ" : "Consultant Pediatrician",
         image: "/img/female_doctor.webp",
@@ -245,6 +206,60 @@ const Consultants = () => {
           i18n.language === "si"
             ? "මනෝ රෝග විශේෂඥ වෛද්‍ය"
             : "Experienced Consultant Psychiatrist",
+      },
+
+      {
+        name:
+          i18n.language === "si"
+            ? "වෛද්‍ය හර්ෂිනි ලියනරච්චි මහත්මිය"
+            : "Dr. Harshini Liyanarachchi",
+        specialization:
+          i18n.language === "si" ? "ආමාශ ආන්ත්‍ර වෛද්‍ය" : "Gastroenterologists",
+        image: "/img/female_doctor.webp",
+        description:
+          i18n.language === "si"
+            ? "පළපුරුදු ආමාශ ආන්ත්‍ර වෛද්‍යවරයෙකි"
+            : "Experienced Gastroenterologists",
+      },
+
+      {
+        name:
+          i18n.language === "si"
+            ? "වෛද්‍ය ශිවර්ෂංකර් මහත්මයා"
+            : "Dr. Shivershanker",
+        specialization:
+          i18n.language === "si" ? "මුත්‍රා රෝග විශේෂඥ වෛද්‍ය" : "Genitourinary Surgeon",
+        image: "/img/male_doctor.webp",
+        description:
+          i18n.language === "si"
+            ? "මුත්‍රා රෝග විශේෂඥ වෛද්‍ය"
+            : "Experienced Genitourinary Surgeon",
+      },
+      {
+        name:
+          i18n.language === "si"
+            ? "වෛද්‍ය රංගා කොඩිතුවක්කු මහත්මයා"
+            : "Dr. Ranga Kodithuwakku",
+        specialization:
+          i18n.language === "si" ? "විකලාංග ශල්‍ය වෛද්‍ය" : "Orthopedic Surgeon",
+        image: "/img/male_doctor.webp",
+        description:
+          i18n.language === "si"
+            ? "විකලාංග ශල්‍ය වෛද්‍ය"
+            : "Experienced Orthopedic Surgeon",
+      },
+      {
+        name:
+          i18n.language === "si"
+            ? "වෛද්‍ය රංගා කොඩිතුවක්කු මහත්මයා"
+            : "Dr. Ranga Heendeniya",
+        specialization:
+          i18n.language === "si" ? "ශල්‍ය වෛද්‍ය" : "Surgeon (VS)",
+        image: "/img/male_doctor.webp",
+        description:
+          i18n.language === "si"
+            ? "විශේෂඥ ශල්‍ය වෛද්‍ය"
+            : "Specialist Consultant Surgeon",
       },
       // ...add more consultants as needed
     ],
