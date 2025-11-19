@@ -39,6 +39,28 @@ const Careers = () => {
     //   ],
     //   applyLink: "/contact",
     // },
+
+    {
+      id: "experienced-employees",
+      title: "Experienced Employees",
+      location: "Tissamaharama",
+      type: "Full-time / Part-time",
+      description:
+        "We are looking for experienced and dedicated individuals to join our team. Applicants should be passionate about delivering high-quality service and willing to work in a dynamic healthcare environment.",
+      responsibilities: [
+        "Perform assigned duties efficiently and professionally",
+        "Work collaboratively with the healthcare team",
+        "Maintain high standards of patient care and safety",
+        "Support daily operational tasks as needed",
+      ],
+      qualifications: [
+        "Relevant work experience in a healthcare or service environment",
+        "Strong communication and teamwork skills",
+        "Ability to work responsibly with minimal supervision",
+        "Professional and positive attitude",
+      ],
+      applyLink: "/contact",
+    },
   ];
 
   return (

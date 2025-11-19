@@ -292,7 +292,7 @@ const Contact = () => {
                   className="rounded-lg overflow-hidden shadow-lg"
                 >
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15868.346152780019!2d81.26215672339919!3d6.292356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae53c41d6010f73%3A0xa4168983c4866db9!2sDebarawewa!5e0!3m2!1sen!2slk!4v1698479433544!5m2!1sen!2slk"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.837881528416!2d81.2647006825536!3d6.285030609673855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69c36c3c85797%3A0xb6afadf026257ed7!2sHorizon%20Hospital!5e0!3m2!1sen!2slk!4v1763564247238!5m2!1sen!2slk"
                     width="100%"
                     height="450"
                     style={{ border: 0 }}
